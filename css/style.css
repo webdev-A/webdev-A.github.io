@@ -906,9 +906,8 @@ button:focus{
 	font-size: 30px;
 }
 
-#logo{
-	width:50px;
-	height:auto;
+#platter{
+	background-color:rgba(117, 113, 107, 0.5);
 }
 
 .platters-opt .lightbox img {
