@@ -314,7 +314,9 @@ button:focus{
 /*------------------------------------------------------------------
     About
 -------------------------------------------------------------------*/
-
+.man{
+	color: rgba(157,222,47);
+}
 .about-section-box .img-fluid{
 	box-shadow: 20px 20px 0px #942020;
 	margin-top: 30px;
@@ -982,9 +984,8 @@ button:focus{
 }
 
 #management{
-	margin-top: -50px;
 	background-color:rgba(41,40,36);
-	border-radius: 20px 20px 20px 20px ;
+	border-radius: 20px 20px 20px 20px;
 }
 
 #aljo-image{
