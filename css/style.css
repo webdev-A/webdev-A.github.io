@@ -906,7 +906,7 @@ button:focus{
 	font-size: 30px;
 }
 
-#platter{
+.platter-center{
 	background-color:rgba(117, 113, 107, 0.5);
 }
 
@@ -997,10 +997,6 @@ button:focus{
   text-align: center;
   margin-top: 20px;
   background-color: rgba(54,69,79);
-}
-
-#man-name{
-	color: rgba(249,166,2);
 }
 
 
