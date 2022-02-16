@@ -321,17 +321,17 @@ button:focus{
 #management{
 	background-color:rgba(41,40,36);
 	border-radius: 20px 20px 20px 20px;
-	margin-top:20px;
+	margin-top:50px;
 	
 }
 .about-section-box .img-fluid{
 	box-shadow: 20px 20px 0px #942020;
-	margin-top:10px;
+	margin-top:30px;
 	
 }
 #gif{
 	box-shadow: 20px 20px 0px #942020;
-	margin-top: 20px;
+	margin-top: 50px;
 	
 }
 #about-us{
@@ -593,9 +593,9 @@ button:focus{
 	background-image: url("../images/_footer-bg.png");
 	background-attachment: scroll;
 	background-clip: initial;
+	background-color: rgba(0, 0, 0, 0);
 	background-origin: initial;
 	background-position: center center;
-	background-color: rgba(0, 0, 0, 0);
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
