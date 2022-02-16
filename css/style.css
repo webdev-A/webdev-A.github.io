@@ -326,7 +326,7 @@ button:focus{
 }
 .about-section-box .img-fluid{
 	box-shadow: 20px 20px 0px #942020;
-	margin-top:30px;
+	margin-top:50px;
 	
 }
 #gif{
@@ -586,14 +586,14 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .footer-area{
-	padding-top: 50px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 }
 .bg-f{
 	background-image: url("../images/_footer-bg.png");
 	background-attachment: scroll;
 	background-clip: initial;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0);
 	background-origin: initial;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -601,6 +601,7 @@ button:focus{
 	position: relative;
 }
 .bg-f::before {
+    background: #010101;
     content: "";
     height: 100%;
     left: 0;
