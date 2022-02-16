@@ -8,10 +8,10 @@
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.navbar-light .navbar-brand{
-		margin-left: 15px;
+		margin-left: 20px;
 	}
 	.navbar-light .navbar-toggler{
-		margin-right: 15px;
+		margin-right: 20px;
 		border-radius: 0px;
 	}
 	.navbar-expand-lg .navbar-nav .dropdown-menu{
@@ -34,10 +34,10 @@
 /* mobile*/
 @media (max-width: 767px) {
 	.navbar-light .navbar-brand{
-		margin-left: 15px;
+		margin-left: 20px;
 	}
 	.navbar-light .navbar-toggler{
-		margin-right: 15px;
+		margin-right: 20px;
 		border-radius: 0px;
 	}
 	.navbar-expand-lg .navbar-nav .dropdown-menu{
@@ -73,12 +73,7 @@
 	.carousel-control-next{
 		right: 0px;
 	}
-	.blog-box-inner .blog-detail{
-		overflow: hidden;
-	}
-	.blog-sidebar{
-		margin-top: 50px;
-	}
+	
 	.top-navbar .navbar{
 		border-radius: 0px 0px 50px 50px;
 	}
@@ -86,10 +81,7 @@
 }
 @media only screen and (min-width: 280px) and (max-width: 599px) {
 	
-	.why-text p{
-		margin-bottom: 0px;
-		margin-top: 0px;
-	}
+	
 	.inner-column{
 		margin-bottom: 30px;
 	}
