@@ -319,6 +319,7 @@ button:focus{
 }
 .about-section-box .img-fluid{
 	box-shadow: 20px 20px 0px #942020;
+	margin-top:10px;
 	
 }
 #gif{
@@ -980,6 +981,7 @@ button:focus{
 #management{
 	background-color:rgba(41,40,36);
 	border-radius: 20px 20px 20px 20px;
+	
 }
 
 #food_guide {
