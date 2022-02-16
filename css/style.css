@@ -587,6 +587,7 @@ button:focus{
 	background-clip: initial;
 	background-origin: initial;
 	background-position: center center;
+	background-color: rgba(0, 0, 0, 0);
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
