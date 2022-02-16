@@ -317,6 +317,13 @@ button:focus{
 .man{
 	color: rgba(157,222,47);
 }
+
+#management{
+	background-color:rgba(41,40,36);
+	border-radius: 20px 20px 20px 20px;
+	margin-top:20px;
+	
+}
 .about-section-box .img-fluid{
 	box-shadow: 20px 20px 0px #942020;
 	margin-top:10px;
@@ -978,11 +985,7 @@ button:focus{
 	margin-bottom: 30px;
 }
 
-#management{
-	background-color:rgba(41,40,36);
-	border-radius: 20px 20px 20px 20px;
-	
-}
+
 
 #food_guide {
   width: 100%;
