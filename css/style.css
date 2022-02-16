@@ -319,7 +319,6 @@ button:focus{
 }
 .about-section-box .img-fluid{
 	box-shadow: 20px 20px 0px #942020;
-	margin-top: 30px;
 	
 }
 #gif{
@@ -593,7 +592,6 @@ button:focus{
 	position: relative;
 }
 .bg-f::before {
-    background: #010101;
     content: "";
     height: 100%;
     left: 0;
@@ -777,8 +775,6 @@ button:focus{
 	color: red;
 }
 
-
-
 .form-control{
 	background-color: rgba(255, 236, 206, 0.8);
 	border-radius: 0px;
@@ -880,7 +876,6 @@ button:focus{
 	background-color: #333333;
 	border-color: #333333;
 }
-
 
 .contact-box{
 	padding: 70px 0px;
