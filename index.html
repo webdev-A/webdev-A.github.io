@@ -499,13 +499,13 @@
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+									<input type="text" placeholder="Your Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
 									<div class="help-block with-errors"></div>
 								</div> 
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<select class="custom-select d-block form-control" id="guest" required data-error="Please Select Person">
+									<select class="custom-select d-block form-control" id="guest" required data-error="Please Select Person" name="dropdown">
 									  <option disabled selected>Subject</option>
 									  <option value="1">Comment and Suggestion</option>
 									  <option value="2">Franchising</option>
@@ -518,7 +518,7 @@
 							</div>
 							<div class="col-md-12">
 								<div class="form-group"> 
-									<textarea class="form-control" id="message" placeholder="Your Message" rows="4" data-error="Write your message" required></textarea>
+									<textarea class="form-control" id="message" name="message" placeholder="Your Message" rows="4" data-error="Write your message" required></textarea>
 									<div class="help-block with-errors"></div>
 								</div>
 								<div class="submit-button text-center">
@@ -535,6 +535,18 @@
 	</div>
 	<!-- End Form -->
 	
+	<?php
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$dropdown = $POST['dropdown'];
+	$message = $_POST['message'];
+	$formcontent="From: $name \n Message: $message";
+	$recipient = "emailaddress@here.com";
+	$subject = "Contact Form";
+	$mailheader = "From: $email \r\n";
+	mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+	echo "Thank You!";
+	?>
 	
 	<!-- Start Footer -->
 	<footer class="footer-area bg-f">
